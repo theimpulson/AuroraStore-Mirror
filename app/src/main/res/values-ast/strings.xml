@@ -67,7 +67,6 @@
     <string name="action_accept">Aceptar</string>
     <string name="action_ok">D\'acuerdu</string>
     <string name="toast_purchase_blocked">La compra d\'aplicaciones nun ta disponible nes cuentes anónimes.</string>
-    <string name="title_apps_sale">Aplicaciones en venta</string>
     <string name="details_no_dependencies">Nun tien dependencies</string>
     <string name="onboarding_permission_esa_desc">Pa guardar les descargues (APKs ya OBBs) ya pa esportar ya importar la configuración del preséu a ya dende l\'almacenamientu esternu.</string>
     <string name="action_logout">Zarrar la sesión</string>

@@ -258,7 +258,6 @@
     <string name="pref_ui_theme_title">Θέμα</string>
     <string name="pref_insecure_anonymous_summary">Δημιουργήστε αναγνωριστικό GSF τοπικά στη συσκευή</string>
     <string name="tab_trending">Τάσεις</string>
-    <string name="title_apps_sale">Εφαρμογές προς πώληση</string>
     <string name="title_games">Παιχνίδια</string>
     <string name="toast_anonymous_restriction">Δεν διατίθεται σε ανώνυμους λογαριασμούς</string>
     <string name="toast_clipboard_copied">Αντιγράφηκε στο πρόχειρο</string>

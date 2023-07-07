@@ -174,6 +174,7 @@ class MainActivity : AppCompatActivity(), NetworkProvider.NetworkListener {
             when (navDestination.id) {
                 R.id.appsContainerFragment,
                 R.id.gamesContainerFragment,
+                R.id.appSalesFragment,
                 R.id.updatesFragment -> {
                     B.searchFab.visibility = View.VISIBLE
                     B.navView.visibility = View.VISIBLE
@@ -235,10 +236,6 @@ class MainActivity : AppCompatActivity(), NetworkProvider.NetworkListener {
             when (item.itemId) {
                 R.id.menu_apps_games -> {
                     navController.navigate(R.id.appsGamesFragment)
-                    B.drawerLayout.close()
-                }
-                R.id.menu_apps_sale -> {
-                    navController.navigate(R.id.appSalesFragment)
                     B.drawerLayout.close()
                 }
                 R.id.menu_blacklist_manager -> {

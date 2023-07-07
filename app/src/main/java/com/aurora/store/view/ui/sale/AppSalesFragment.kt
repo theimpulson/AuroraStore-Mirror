@@ -50,10 +50,7 @@ class AppSalesFragment : BaseFragment(R.layout.activity_generic_recycler) {
         _binding = ActivityGenericRecyclerBinding.bind(view)
         VM = ViewModelProvider(this)[AppSalesViewModel::class.java]
 
-        binding.layoutToolbarAction.txtTitle.text = getString(R.string.title_apps_sale)
-        binding.layoutToolbarAction.imgActionPrimary.setOnClickListener {
-            findNavController().navigateUp()
-        }
+        binding.layoutToolbarAction.root.visibility = View.GONE
 
         endlessRecyclerOnScrollListener = object : EndlessRecyclerOnScrollListener() {
             override fun onLoadMore(currentPage: Int) {

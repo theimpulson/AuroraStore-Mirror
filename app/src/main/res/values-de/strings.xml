@@ -54,7 +54,6 @@
     <string name="toast_clipboard_copied">In die Zwischenablage kopiert</string>
     <string name="toast_apk_whitelisted">Auf der Erlaubnisliste</string>
     <string name="title_installer">Installationsmethode</string>
-    <string name="title_apps_sale">Apps im Angebot</string>
     <string name="title_apps_library">Apps in der Bibliothek</string>
     <string name="title_apps_games">Meine Apps &amp; Spiele</string>
     <string name="title_apps">Apps</string>

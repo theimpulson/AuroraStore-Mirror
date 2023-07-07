@@ -200,7 +200,6 @@
     <string name="title_updates">Päivitykset</string>
     <string name="title_spoof_manager">Huijausten hallinta</string>
     <string name="title_blacklist_manager">Mustan listan hallinta</string>
-    <string name="title_apps_sale">Tarjouksessa</string>
     <string name="tab_top_paid">Suosituimmat maksulliset</string>
     <string name="tab_top_grossing">Tuottavimmat</string>
     <string name="tab_top_free">Suosituimmat ilmaiset</string>

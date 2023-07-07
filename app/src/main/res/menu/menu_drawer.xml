@@ -23,11 +23,6 @@
             android:id="@+id/menu_apps_games"
             android:icon="@drawable/ic_apps"
             android:title="@string/title_apps_games" />
-
-        <item
-            android:id="@+id/menu_apps_sale"
-            android:icon="@drawable/ic_sale"
-            android:title="@string/title_apps_sale" />
     </group>
 
     <group android:id="@+id/group2">

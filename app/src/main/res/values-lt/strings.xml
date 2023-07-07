@@ -259,7 +259,6 @@
     <string name="pref_filter_search_summary">Paieškos filtrai bus atstatomi kiekvienos paieškos metu. Išjunkite šią parinktį norėdami išsaugoti paieškos filtrus</string>
     <string name="onboarding_permission_esm">Išorinės saugyklos tvarkytuvė</string>
     <string name="pref_install_profile_title">Įdiegimo profiliai (Eksperimentinis)</string>
-    <string name="title_apps_sale">Išparduodamos programėlės</string>
     <string name="toast_apk_blacklisted">Pridėta į juodąjį sąrašą</string>
     <string name="toast_apk_whitelisted">Pridėta į baltąjį sąrašą</string>
     <string name="toast_page_unavailable">Naršomas puslapis neprieinamas</string>

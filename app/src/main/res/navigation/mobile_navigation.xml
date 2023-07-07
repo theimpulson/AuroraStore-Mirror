@@ -51,7 +51,7 @@
     <fragment
         android:id="@+id/appSalesFragment"
         android:name="com.aurora.store.view.ui.sale.AppSalesFragment"
-        android:label="@string/title_apps_sale"
+        android:label="@string/title_offers"
         tools:layout="@layout/activity_generic_recycler" />
     <fragment
         android:id="@+id/spoofFragment"

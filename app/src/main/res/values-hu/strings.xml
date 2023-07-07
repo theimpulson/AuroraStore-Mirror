@@ -160,7 +160,6 @@
     <string name="details_free">Ingyenes</string>
     <string name="details_dev_website">Weboldal</string>
     <string name="details_dev_profile">Fejlesztői profil</string>
-    <string name="title_apps_sale">Eladó appok</string>
     <string name="toast_developer_setting_failed">Az eszköze beállításain belül kapcsolja be a Fejlesztői beállításokat, így megnyitva őket.</string>
     <string name="pref_install_mode_session">Munkamenet telepítő</string>
     <string name="toast_purchase_blocked">Az app vásárlás nem érhető el Névtelen fiókkal.</string>

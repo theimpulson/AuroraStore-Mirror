@@ -286,7 +286,6 @@
     <string name="title_apps">"Apps"</string>
     <string name="title_apps_games">"My apps &amp; games"</string>
     <string name="title_apps_library">"Apps in library"</string>
-    <string name="title_apps_sale">"Apps on sale"</string>
     <string name="title_blacklist_manager">"Blacklist manager"</string>
     <string name="title_device">"Device"</string>
     <string name="title_download_manager">"Downloads"</string>
@@ -365,4 +364,5 @@
     <string name="checking_for_updates">Checking for updates</string>
     <string name="pref_updates_check">Automated updates check</string>
     <string name="pref_updates_check_desc">Automatically check &amp; notify for new app updates periodically</string>
+    <string name="title_offers">Offers</string>
 </resources>

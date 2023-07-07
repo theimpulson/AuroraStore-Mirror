@@ -30,7 +30,6 @@
     <string name="pref_ui_theme_darkord">Discórdia</string>
     <string name="pref_ui_accent_title">Cor de destaque</string>
     <string name="onboarding_title_accent">Cor de destaque</string>
-    <string name="title_apps_sale">Aplicações em promoção</string>
     <string name="title_apps_library">Aplicações na biblioteca</string>
     <string name="onboarding_permission_installer_desc">Permitir instalação de aplicações a partir da Aurora Store</string>
     <string name="dialog_desc_native_split">Não é possível instalar conjuntos de aplicações via Instalador Nativo. Altere para o instalador de Sessão, Serviços ou Root.</string>
