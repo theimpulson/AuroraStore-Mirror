@@ -32,6 +32,7 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.activity.addCallback
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.annotation.IdRes
 import androidx.appcompat.app.AppCompatActivity
@@ -131,6 +132,14 @@ class MainActivity : AppCompatActivity(), NetworkProvider.NetworkListener {
 
         authData = AuthProvider.with(this).getAuthData()
 
+        // TopLevelFragments
+        val topLevelFrags = listOf(
+            R.id.appsContainerFragment,
+            R.id.gamesContainerFragment,
+            R.id.appSalesFragment,
+            R.id.updatesFragment
+        )
+
         attachToolbar()
         attachNavigation()
         attachDrawer()
@@ -164,6 +173,23 @@ class MainActivity : AppCompatActivity(), NetworkProvider.NetworkListener {
         /* Check self update only for stable release, skip debug & nightlies*/
         if (BuildConfig.APPLICATION_ID == Constants.APP_ID) checkSelfUpdate()
 
+        // Handle quick exit from back actions
+        onBackPressedDispatcher.addCallback(this) {
+            if (!B.drawerLayout.isOpen) {
+                if (navController.currentDestination?.id in topLevelFrags) {
+                    if (navController.currentDestination?.id == R.id.appsContainerFragment) {
+                        finish()
+                    } else {
+                        navController.navigate(R.id.appsContainerFragment)
+                    }
+                } else {
+                    navController.navigateUp()
+                }
+            } else {
+                B.drawerLayout.close()
+            }
+        }
+
         // Handle intents
         when (intent?.action) {
             Constants.NAVIGATION_UPDATES -> B.navView.selectedItemId = R.id.updatesFragment
@@ -173,10 +199,7 @@ class MainActivity : AppCompatActivity(), NetworkProvider.NetworkListener {
         // Handle views on fragments
         navController.addOnDestinationChangedListener { _, navDestination, _ ->
             when (navDestination.id) {
-                R.id.appsContainerFragment,
-                R.id.gamesContainerFragment,
-                R.id.appSalesFragment,
-                R.id.updatesFragment -> {
+                in topLevelFrags -> {
                     B.searchFab.visibility = View.VISIBLE
                     B.navView.visibility = View.VISIBLE
                     B.viewToolbar.root.visibility = View.VISIBLE
