@@ -60,9 +60,19 @@ class StreamBrowseViewModel @Inject constructor(
                     liveData.postValue(streamCluster)
                 } else {
                     Log.i(TAG, "End of Cluster")
+                    postClusterEnd()
                 }
             } catch (_: Exception) {
+                /** The issue is in gplay API, should address catching case there */
+                postClusterEnd()
             }
         }
+    }
+
+    fun postClusterEnd() {
+        streamCluster = streamCluster.copy(
+            clusterNextPageUrl = ""
+        )
+        liveData.postValue(streamCluster)
     }
 }
