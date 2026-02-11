@@ -341,7 +341,7 @@
     <string name="remove">Выдаліць</string>
     <string name="add">Дадаць</string>
     <string name="remove_dispenser_summary">Вы сапраўды хочаце выдаліць размеркавальнік \"<xliff:g id="url"> %1$s</xliff:g>\"?</string>
-    <string name="remove_dispenser_title">Выдаліць размеркавальнік</string>
+    <string name="remove_dispenser_title">Выдаліць размеркавальнік?</string>
     <string name="pref_clear_device_owner_summary">Выдаляе Aurora Store як праграму ўладальніка прылады</string>
     <string name="pref_clear_device_owner_desc">Гэта дзеянне адклікае дазвол усталёўшчыка на бясшумнае ўсталяванне праграмы. Вы сапраўды хочаце працягнуць?</string>
     <string name="pref_dispenser_title">Кіраванне размеркавальнікамі</string>
@@ -472,4 +472,5 @@
     <string name="loading">Адбываецца загрузка</string>
     <string name="page">Старонка <xliff:g id="number">%1$d</xliff:g></string>
     <string name="action_skip">Прапусціць</string>
+    <string name="force_restart_snack">Перазапусціць, каб прымяніць змены?</string>
 </resources>
