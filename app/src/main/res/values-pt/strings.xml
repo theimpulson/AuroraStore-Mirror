@@ -271,7 +271,7 @@
     <string name="failed_to_fetch_report">Não foi possível obter o relatório de privacidade</string>
     <string name="access_denied_using_vpn">Acesso recusado. Está a usar uma VPN ou Tor\?</string>
     <string name="bad_request">Erro interno! Tente de novo mais tarde</string>
-    <string name="login_rate_limited">A sua conta tem limite de utilizações</string>
+    <string name="login_rate_limited">Você está sujeito a um limite de taxa de transferência.</string>
     <string name="server_unreachable">Servidor inacessível</string>
     <string name="failed_generating_session">Falha ao gerar a sessão. Código de erro: <xliff:g id="status_code">%1$d</xliff:g></string>
     <string name="check_connectivity">Verificar ligação</string>
@@ -338,7 +338,7 @@
     <string name="no_dispensers_available">Não existem distribuidores disponíveis</string>
     <string name="add_dispenser_title">Adicionar distribuidor</string>
     <string name="add_dispenser_hint">URL do distribuidor</string>
-    <string name="remove_dispenser_title">Remover distribuidor</string>
+    <string name="remove_dispenser_title">Remover o dispensador?</string>
     <string name="about_wiki_summary">Encontre respostas a perguntas frequentes (F.A.Q.), passos de resolução de problemas e muito mais</string>
     <string name="add_dispenser_summary">Adicionar um distribuidor de tokens ao Aurora Store. Os distribuidores de tokens fornecem credenciais de conta à Aurora Store para iniciar sessão anonimamente.</string>
     <string name="add_dispenser_error">URL inválido</string>
@@ -414,7 +414,7 @@
     <string name="toast_proxy_disabled">Proxy desativada com sucesso</string>
     <string name="pref_network_proxy_desc">Veja e gira a configuração de proxy</string>
     <string name="pref_updates_restrictions_title">Restrições das atualizações automáticas</string>
-    <string name="pref_updates_restrictions_desc">Configure as restrições do dispositivo das atualizações automáticas.</string>
+    <string name="pref_updates_restrictions_desc">Configure as restrições do dispositivo para atualizações automáticas</string>
     <string name="pref_updates_restrictions_metered">Somente em redes ilimitadas</string>
     <string name="pref_updates_restrictions_idle">Quando o dispositivo estiver parado</string>
     <string name="verification_failed">Falha ao verificar os ficheiros descarregados</string>
@@ -445,4 +445,31 @@
     <string name="permissions_requested"><xliff:g id="number_of_permissions">%1$d</xliff:g> permissões</string>
     <string name="page">Página <xliff:g id="number">%1$d</xliff:g></string>
     <string name="loading">Carregamento em progresso</string>
+    <string name="details_data_safety_collect">Dados que este aplicativo pode coletar</string>
+    <string name="details_data_safety_collect_none">O desenvolvedor afirma que este aplicativo não coleta dados do usuário.</string>
+    <string name="details_data_safety_shared">Dados que este aplicativo pode compartilhar</string>
+    <string name="details_data_safety_share_none">O desenvolvedor afirma que este aplicativo não compartilha dados do usuário com outras empresas ou organizações.</string>
+    <string name="exodus_tracker_desc">Esta versão do aplicativo ainda pode conter rastreadores que não estão presentes no banco de dados do Exodus Privacy.</string>
+    <string name="exodus_report_trackers"><xliff:g id="number_of_trackers">%1$d</xliff:g> rastreadores conhecidos encontrados em <xliff:g id="app_version_name">%2$s</xliff:g></string>
+    <string name="installer_microg_misconfigured">O instalador MicroG não conseguiu instalar o aplicativo, provavelmente devido a uma configuração incorreta.</string>
+    <string name="pref_install_mode_microg">Instalador MicroG</string>
+    <string name="action_skip">Pular</string>
+    <string name="microg_installer_subtitle">Requer a instalação do aplicativo complementar microG</string>
+    <string name="microg_installer_desc">Ajuda você a ignorar a verificação de integridade do aplicativo (somente instalador)</string>
+    <string name="manual_download_version_error">O código da versão só pode conter dígitos</string>
+    <string name="force_restart_snack">Reiniciar para aplicar mudanças?</string>
+    <string name="no_description">Nenhuma descrição disponível</string>
+    <string name="details_more_info">Mais informações</string>
+    <string name="details_more_target_api">Alvos</string>
+    <string name="details_more_package_name">Nome do pacote</string>
+    <string name="details_more_content_rating">Classificação de conteúdo</string>
+    <string name="preparing_to_install">Preparando para instalar</string>
+    <plurals name="permissions_required">
+        <item quantity="one">Permissão requerida</item>
+        <item quantity="many">Permissões requeridas</item>
+        <item quantity="other">Permissãos requeridas</item>
+    </plurals>
+    <string name="select_app_for_details">Selecione um aplicativo para obter mais detalhes</string>
+    <string name="action_filter_no_ads">Sem anúncios</string>
+    <string name="action_filter_no_gms">Sem serviços de reprodução</string>
 </resources>

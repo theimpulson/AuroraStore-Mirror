@@ -120,7 +120,7 @@
     <string name="toast_purchase_blocked">Придбання застосунків недоступне для знеособлених облікових записів.</string>
     <string name="toast_spoof_applied">Підміну пристрою застосовано.</string>
     <string name="toast_permission_granted">Дозвіл надано</string>
-    <string name="toast_developer_setting_failed">Увімкніть налаштування розробника в налаштуваннях пристрою, щоби відкрити їх.</string>
+    <string name="toast_developer_setting_failed">Увімкніть налаштування розробника в налаштуваннях пристрою, щоб відкрити їх.</string>
     <string name="toast_clipboard_copied">Скопійовано до буфера обміну</string>
     <string name="toast_apk_whitelisted">У білому списку</string>
     <string name="toast_apk_blacklisted">У чорному списку</string>
@@ -135,7 +135,7 @@
     <string name="title_language">Мова</string>
     <string name="title_installer">Установлювач застосунків</string>
     <string name="title_installed">Установлені</string>
-    <string name="title_installation">Установлення</string>
+    <string name="title_installation">Встановлення</string>
     <string name="title_games">Ігри</string>
     <string name="title_download_playstore">Play Маркет</string>
     <string name="title_download_manager">Завантаження</string>
@@ -154,7 +154,7 @@
     <string name="tab_for_you">Для вас</string>
     <string name="tab_editor_choice">Вибір редакції</string>
     <string name="tab_categories">Категорії</string>
-    <string name="insecure_anonymous_apply">Переконайтеся, що ви повторно увійшли та перезапустили застосунок, щоби застосувати зміни.</string>
+    <string name="insecure_anonymous_apply">Переконайтеся, що ви повторно увійшли та перезапустили застосунок, щоб застосувати зміни.</string>
     <string name="spoof_apply">Переконайтеся, що ви повторно увійшли, щоби застосувати підміну</string>
     <string name="purchase_session_expired">Сеанс завершився. Увійдіть знову, щоби розпочати новий сеанс.</string>
     <string name="purchase_no_file">Не вдалось отримати файли</string>
@@ -319,7 +319,7 @@
     <string name="services_installer_subtitle">Установлювач для фонових установлень</string>
     <string name="services_installer_desc">Потрібує встановлення Aurora Services як привілейованого системного застосуноку</string>
     <string name="am_installer_subtitle">Повнофункціональний менеджер пакунків із відкритим початковим кодом</string>
-    <string name="am_installer_desc">Потрібує Менеджера застосунків, для встановлення якого потрібен режим adb/root, якщо увімкнено оптимізації MIUI</string>
+    <string name="am_installer_desc">Потребує Менеджера застосунків, для встановлення якого потрібен режим adb/root, якщо увімкнено оптимізації MIUI</string>
     <string name="manual_download_hint">Уведіть код версії, яку хочете завантажити</string>
     <string name="faqs_subtitle">Маєте питання? Знайдіть відповіді</string>
     <string name="source_code_subtitle">Дізнатися, що всередині</string>
