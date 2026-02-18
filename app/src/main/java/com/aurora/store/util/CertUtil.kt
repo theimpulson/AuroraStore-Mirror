@@ -35,7 +35,6 @@ import com.aurora.store.data.model.Algorithm
 import com.aurora.store.util.PackageUtil.getPackageInfo
 import java.security.MessageDigest
 import java.security.cert.X509Certificate
-import javax.security.auth.x500.X500Principal
 
 object CertUtil {
 
@@ -90,7 +89,7 @@ object CertUtil {
             }["O"] == "fdroid.org"
         }
     } catch (exception: Exception) {
-        Log.e(TAG, "Failed to check signing cert for $packageName")
+        Log.e(TAG, "Failed to check signing cert for $packageName", exception)
         false
     }
 
@@ -104,7 +103,7 @@ object CertUtil {
 
             return hasFakePackageSignature
         } catch (exception: Exception) {
-            Log.e(TAG, "Failed to check origin for $PACKAGE_NAME_GMS")
+            Log.e(TAG, "Failed to check origin for $PACKAGE_NAME_GMS", exception)
             false
         }
     }
@@ -142,19 +141,5 @@ object CertUtil {
         } else {
             @Suppress("DEPRECATION")
             getPackageInfo(context, packageName, PackageManager.GET_SIGNATURES)
-        }
-
-    private fun extractSHA1Fingerprint(certificate: X509Certificate): String {
-        val messageDigest = MessageDigest.getInstance(Algorithm.SHA1.value)
-        messageDigest.update(certificate.encoded)
-        return messageDigest.digest()
-            .joinToString("") { byte -> String.format("%02x", byte) }
-            .lowercase()
-    }
-
-    private fun parseX500Principal(principal: X500Principal): Map<String, String> =
-        principal.name.split(",").associate {
-            val (left, right) = it.split("=")
-            left.trim() to right.trim()
         }
 }
